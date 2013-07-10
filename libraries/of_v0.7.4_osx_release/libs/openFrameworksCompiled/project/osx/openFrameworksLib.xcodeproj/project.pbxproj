@@ -851,8 +851,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E432815F138AC0470047C5CB /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/debug/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/debug/";
 				SDKROOT = macosx;
 			};
@@ -862,8 +864,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4328160138AC04A0047C5CB /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../lib/osx/";
 				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../../lib/osx/build/release/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				OBJROOT = "$(SRCROOT)/../../lib/osx/build/release";
 				SDKROOT = macosx;
 			};
