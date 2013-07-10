@@ -1,17 +1,17 @@
 dependencies: \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/app/ofAppGlutWindow.cpp \
   ../../../../libs/openFrameworks/app/ofAppGlutWindow.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glew/include/GL/glew.h \
   ../../../../libs/tess2/include/tesselator.h \
   ../../../../libs/openFrameworks/app/ofAppBaseWindow.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
   ../../../../libs/poco/include/Poco/Mutex.h \
   ../../../../libs/poco/include/Poco/Foundation.h \
   ../../../../libs/poco/include/Poco/Config.h \
@@ -22,7 +22,7 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Exception.h \
   ../../../../libs/poco/include/Poco/ScopedLock.h \
   ../../../../libs/poco/include/Poco/Mutex_POSIX.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
   ../../../../libs/poco/include/Poco/FIFOEvent.h \
   ../../../../libs/poco/include/Poco/AbstractEvent.h \
@@ -51,20 +51,20 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Expire.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/openFrameworks/app/ofBaseApp.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofBaseTypes.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofBaseTypes.h \
   ../../../../libs/openFrameworks/types/ofRectangle.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
   ../../../../libs/poco/include/Poco/File_UNIX.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofMesh.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLUtils.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPixels.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMatrix4x4.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/3d/ofMesh.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLUtils.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPixels.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMatrix4x4.h \
   ../../../../libs/openFrameworks/math/ofQuaternion.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLRenderer.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPolyline.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofGraphics.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/gl/ofGLRenderer.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/graphics/ofPolyline.h \
   ../../../../libs/openFrameworks/app/ofAppRunner.h \
   ../../../../libs/openFrameworks/app/../../../libs/glut/lib/osx/GLUT.framework/Versions/A/Headers/glut.h

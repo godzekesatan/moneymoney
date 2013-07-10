@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/communication/ofArduino.cpp \
   ../../../../libs/openFrameworks/communication/ofArduino.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/events/ofEvents.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofConstants.h \
   ../../../../libs/glew/include/GL/glew.h \
   ../../../../libs/tess2/include/tesselator.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofPoint.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofVec3f.h \
   ../../../../libs/openFrameworks/math/ofVec2f.h \
   ../../../../libs/openFrameworks/math/ofVec4f.h \
   ../../../../libs/openFrameworks/events/ofEventUtils.h \
@@ -47,10 +47,10 @@ dependencies: \
   ../../../../libs/poco/include/Poco/Expire.h \
   ../../../../libs/poco/include/Poco/Timestamp.h \
   ../../../../libs/openFrameworks/communication/ofSerial.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/types/ofTypes.h \
   ../../../../libs/openFrameworks/types/ofColor.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
-  /Users/robertsdionne/Downloads/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/math/ofMath.h \
+  /Users/robertsdionne/code/moneymoney/libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/../../../openFrameworks/utils/ofUtils.h \
   ../../../../libs/openFrameworks/utils/ofLog.h \
   ../../../../libs/openFrameworks/utils/ofFileUtils.h \
   ../../../../libs/poco/include/Poco/File.h \
