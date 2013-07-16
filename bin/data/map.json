@@ -23,7 +23,22 @@
  {"x": 1, "y": 1, "filename": "images/trailer/props/trailer1.png"},
  {"x": 1, "y": 1, "filename": "images/trailer/props/trailer2.png"},
  {"x": 1, "y": 1, "filename": "images/trailer/props/trailer3.png"},
- {"x": 1, "y": 1, "filename": "images/trailer/props/trailer1_rockEntrance"}
+ {"x": 1, "y": 1, "filename": "images/trailer/props/trailer1_rockEntrance.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/bench.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/childsoldierstatue.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/fountain.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/park1.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/park2.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/park3.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/park4.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/park/park5.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/road1.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tile1.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tile2.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tile3.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tileBig1.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tileBig2.png"},
+ {"x": 1, "y": 1, "filename": "images/downtown/sidewalk/tree1.png"}
 ]
 
 
