@@ -1,4 +1,29 @@
 [
- {"x": 1, "y": 2, "filename": "tile000.png"},
- {"x": 100, "y": 200, "filename": "tile001.png"}
+ {"x": 1, "y": 1, "filename": "images/neighborhood/homes/house1.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/homes/house2.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/homes/house3.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/homes/house4.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/path/bench.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/path/hopscotch.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/path/pottedplant.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/path/square_path.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs1.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs2.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs3.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs4.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs5.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs6.png"},
+ {"x": 1, "y": 1, "filename": "images/neighborhood/shrubs/shrubs7.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/people/art.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/people/jules.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/people/mark.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/people/tammy.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/bed.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/rubbage.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/trailer1.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/trailer2.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/trailer3.png"},
+ {"x": 1, "y": 1, "filename": "images/trailer/props/trailer1_rockEntrance"}
 ]
+
+
