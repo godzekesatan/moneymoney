@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4641782D178CE8C50080DD2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4641782A178CE8C50080DD2B /* main.cpp */; };
-		4641782E178CE8C50080DD2B /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4641782B178CE8C50080DD2B /* testApp.cpp */; };
 		464179B2178CEEB50080DD2B /* mapreader_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B1178CEEB50080DD2B /* mapreader_test.cpp */; };
 		464179BA178CF0200080DD2B /* mapreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B8178CF0200080DD2B /* mapreader.cpp */; };
 		464179BB178CF0200080DD2B /* mapreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B8178CF0200080DD2B /* mapreader.cpp */; };
@@ -16,6 +15,7 @@
 		46966ED4178D14E800FCFC3B /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46417998178CEC7E0080DD2B /* libgtest_main.a */; };
 		46966EDA178D191600FCFC3B /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46966ED8178D191600FCFC3B /* map.cpp */; };
 		46966EDB178D1B2500FCFC3B /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46966ED8178D191600FCFC3B /* map.cpp */; };
+		46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46992857179644DD009A8FB2 /* moneymoney.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -148,8 +148,6 @@
 /* Begin PBXFileReference section */
 		46417828178CE72F0080DD2B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4641782A178CE8C50080DD2B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4641782B178CE8C50080DD2B /* testApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testApp.cpp; sourceTree = "<group>"; };
-		4641782C178CE8C50080DD2B /* testApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testApp.h; sourceTree = "<group>"; };
 		46417842178CEC050080DD2B /* unittests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unittests; sourceTree = BUILT_PRODUCTS_DIR; };
 		46417856178CEC7D0080DD2B /* aclocal.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
 		46417858178CEC7D0080DD2B /* config.guess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
@@ -336,6 +334,8 @@
 		46966ED7178D18AC00FCFC3B /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 		46966ED8178D191600FCFC3B /* map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
 		46966ED9178D191600FCFC3B /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		46992857179644DD009A8FB2 /* moneymoney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moneymoney.cpp; sourceTree = "<group>"; };
+		46992858179644DD009A8FB2 /* moneymoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moneymoney.h; sourceTree = "<group>"; };
 		46B58190178D030B00645C67 /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
 		46B58191178D055000645C67 /* checks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checks.h; sourceTree = "<group>"; };
 		46B58192178D055000645C67 /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
@@ -489,8 +489,8 @@
 				46966ED9178D191600FCFC3B /* map.h */,
 				464179B8178CF0200080DD2B /* mapreader.cpp */,
 				464179B9178CF0200080DD2B /* mapreader.h */,
-				4641782B178CE8C50080DD2B /* testApp.cpp */,
-				4641782C178CE8C50080DD2B /* testApp.h */,
+				46992857179644DD009A8FB2 /* moneymoney.cpp */,
+				46992858179644DD009A8FB2 /* moneymoney.h */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -1342,9 +1342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4641782D178CE8C50080DD2B /* main.cpp in Sources */,
-				4641782E178CE8C50080DD2B /* testApp.cpp in Sources */,
 				464179BA178CF0200080DD2B /* mapreader.cpp in Sources */,
 				46966EDA178D191600FCFC3B /* map.cpp in Sources */,
+				46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

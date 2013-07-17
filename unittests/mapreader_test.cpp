@@ -7,7 +7,7 @@
 
 TEST(MapReaderTest, ReadMap) {
   MapReader reader;
-  Map map = reader.ReadMap("data/map.json");
+  Map map = reader.ReadMap("../unittests/testmap.json");
   EXPECT_EQ(2, map.size());
   Sprite s0 = map.get(0);
   EXPECT_EQ(1, s0.x);

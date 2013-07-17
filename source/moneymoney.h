@@ -1,8 +1,9 @@
-#pragma once
+#ifndef __moneymoney__moneymoney__
+#define __moneymoney__moneymoney__
 
 #include "ofMain.h"
 
-class testApp : public ofBaseApp {
+class MoneyMoney : public ofBaseApp {
 public:
   void setup();
   void update();
@@ -18,3 +19,5 @@ public:
   void dragEvent(ofDragInfo dragInfo);
   void gotMessage(ofMessage msg);
 };
+
+#endif /* defined(__moneymoney__moneymoney__) */
