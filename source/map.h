@@ -11,11 +11,17 @@ struct Sprite {
 
 class Map {
 public:
+  Map() = default;
+
   Map(const std::vector<Sprite> &sprites);
 
   virtual ~Map();
 
   const Sprite &get(std::vector<Sprite>::size_type n);
+
+  std::vector<Sprite>::iterator begin();
+
+  std::vector<Sprite>::iterator end();
 
   std::vector<Sprite>::size_type size();
 
