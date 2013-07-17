@@ -336,7 +336,6 @@
 		46966ED9178D191600FCFC3B /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
 		46992857179644DD009A8FB2 /* moneymoney.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moneymoney.cpp; sourceTree = "<group>"; };
 		46992858179644DD009A8FB2 /* moneymoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moneymoney.h; sourceTree = "<group>"; };
-		469928761796465D009A8FB2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		46B58190178D030B00645C67 /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
 		46B58191178D055000645C67 /* checks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checks.h; sourceTree = "<group>"; };
 		46B58192178D055000645C67 /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
@@ -1134,7 +1133,6 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				469928761796465D009A8FB2 /* OpenGL.framework */,
 				BB4B014C10F69532006C3DED /* addons */,
 				46417825178CE7250080DD2B /* bin */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
