@@ -4,6 +4,7 @@ void MoneyMoney::setup() {
   map = reader.ReadMap("data/map.json");
   for (auto sprite : map) {
     images[sprite.filename].loadImage(sprite.filename);
+    images[sprite.filename].getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
   }
 }
 
