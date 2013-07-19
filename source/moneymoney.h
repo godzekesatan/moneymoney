@@ -30,8 +30,8 @@ private:
   MapReader reader;
   Map map;
   std::map<std::string, ofImage> images;
-  ofVec2f position;
-  float scale = 1.0;
+  ofVec2f position, mouse_position;
+  float scale = 1.0, scale_target = 1.0;
 };
 
 #endif /* defined(__moneymoney__moneymoney__) */

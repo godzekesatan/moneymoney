@@ -11,6 +11,7 @@
 		464179B2178CEEB50080DD2B /* mapreader_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B1178CEEB50080DD2B /* mapreader_test.cpp */; };
 		464179BA178CF0200080DD2B /* mapreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B8178CF0200080DD2B /* mapreader.cpp */; };
 		464179BB178CF0200080DD2B /* mapreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464179B8178CF0200080DD2B /* mapreader.cpp */; };
+		4694D9C51798C4F500C33FBC /* export_layer_map.js in Sources */ = {isa = PBXBuildFile; fileRef = 4694D9C41798C4F500C33FBC /* export_layer_map.js */; };
 		46966ED1178D14DA00FCFC3B /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46417996178CEC7E0080DD2B /* libgtest.a */; };
 		46966ED4178D14E800FCFC3B /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46417998178CEC7E0080DD2B /* libgtest_main.a */; };
 		46966EDA178D191600FCFC3B /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46966ED8178D191600FCFC3B /* map.cpp */; };
@@ -331,6 +332,7 @@
 		464179B1178CEEB50080DD2B /* mapreader_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapreader_test.cpp; sourceTree = "<group>"; };
 		464179B8178CF0200080DD2B /* mapreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mapreader.cpp; sourceTree = "<group>"; };
 		464179B9178CF0200080DD2B /* mapreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapreader.h; sourceTree = "<group>"; };
+		4694D9C41798C4F500C33FBC /* export_layer_map.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = export_layer_map.js; sourceTree = "<group>"; };
 		46966ED7178D18AC00FCFC3B /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
 		46966ED8178D191600FCFC3B /* map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = map.cpp; sourceTree = "<group>"; };
 		46966ED9178D191600FCFC3B /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
@@ -888,6 +890,14 @@
 			path = unittests;
 			sourceTree = "<group>";
 		};
+		4694D9B61798C4C500C33FBC /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4694D9C41798C4F500C33FBC /* export_layer_map.js */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
 		46A1095F178CE69000FADD99 /* libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -1133,6 +1143,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				4694D9B61798C4C500C33FBC /* scripts */,
 				BB4B014C10F69532006C3DED /* addons */,
 				46417825178CE7250080DD2B /* bin */,
 				E45BE5980E8CC70C009D7055 /* frameworks */,
@@ -1345,6 +1356,7 @@
 				464179BA178CF0200080DD2B /* mapreader.cpp in Sources */,
 				46966EDA178D191600FCFC3B /* map.cpp in Sources */,
 				46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */,
+				4694D9C51798C4F500C33FBC /* export_layer_map.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

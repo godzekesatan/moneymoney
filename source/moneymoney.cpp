@@ -6,27 +6,20 @@ void MoneyMoney::setup() {
     images[sprite.filename].loadImage(sprite.filename);
     images[sprite.filename].getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
   }
+  mouse_position = ofVec2f(ofGetWidth(), ofGetHeight()) / 2.0;
 }
 
 void MoneyMoney::update() {
-  if (ofGetKeyPressed(OF_KEY_LEFT)) {
-    position.x -= 1;
+  ofVec2f d((mouse_position.x - ofGetWidth() / 2.0) / ofGetWidth(),
+            (mouse_position.y - ofGetHeight() / 2.0) / ofGetHeight());
+  ofVec2f e = 0.8 * 0.5 * d / max(abs(d.x), abs(d.y));
+  if (mouse_position.x < 0.1 * ofGetWidth() ||
+      mouse_position.x > 0.9 * ofGetWidth() ||
+      mouse_position.y < 0.1 * ofGetHeight() ||
+      mouse_position.y > 0.9 * ofGetHeight()) {
+    position += 10.0 * (d - e);
   }
-  if (ofGetKeyPressed(OF_KEY_RIGHT)) {
-    position.x += 1;
-  }
-  if (ofGetKeyPressed(OF_KEY_UP)) {
-    position.y -= 1;
-  }
-  if (ofGetKeyPressed(OF_KEY_DOWN)) {
-    position.y += 1;
-  }
-  if (ofGetKeyPressed('=')) {
-    scale *= 1.01;
-  }
-  if (ofGetKeyPressed('-')) {
-    scale /= 1.01;
-  }
+  scale = ofLerp(scale, scale_target, 0.02);
 }
 
 void MoneyMoney::draw() {
@@ -44,7 +37,12 @@ void MoneyMoney::draw() {
 }
 
 void MoneyMoney::keyPressed(int key) {
-
+  if (key == '=') {
+    scale_target *= 2;
+  }
+  if (key == '-' && scale_target > 1) {
+    scale_target /= 2;
+  }
 }
 
 void MoneyMoney::keyReleased(int key) {
@@ -52,7 +50,7 @@ void MoneyMoney::keyReleased(int key) {
 }
 
 void MoneyMoney::mouseMoved(int x, int y) {
-
+  mouse_position = ofVec2f(x, y);
 }
 
 void MoneyMoney::mouseDragged(int x, int y, int button) {
