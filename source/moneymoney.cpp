@@ -40,7 +40,7 @@ void MoneyMoney::keyPressed(int key) {
   if (key == '=') {
     scale_target *= 2;
   }
-  if (key == '-' && scale_target > 1) {
+  if (key == '-' && scale_target > 0.125) {
     scale_target /= 2;
   }
 }
