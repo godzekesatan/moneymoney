@@ -2,8 +2,7 @@
 #define MONEYMONEY_BASE_H_
 
 /**
- * The DECLARE_INTERFACE macro allows us to save some typing when defining a purely abstract base
- * class.
+ * Allows us to save some typing when defining a purely abstract base class.
  */
 #define DECLARE_INTERFACE(interface)\
 public:\
