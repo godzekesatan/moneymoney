@@ -7,6 +7,9 @@
 #include "mapreader.h"
 #include "ofMain.h"
 
+/**
+ * The OpenFrameworks application for Money Money.
+ */
 class MoneyMoney : public ofBaseApp {
 public:
   MoneyMoney() = default;

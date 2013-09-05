@@ -6,6 +6,9 @@
 
 #include "map.h"
 
+/**
+ * Reads a map from a JSON file.
+ */
 class MapReader {
 public:
   MapReader();
