@@ -17,6 +17,7 @@
 		46966EDA178D191600FCFC3B /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46966ED8178D191600FCFC3B /* map.cpp */; };
 		46966EDB178D1B2500FCFC3B /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46966ED8178D191600FCFC3B /* map.cpp */; };
 		46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46992857179644DD009A8FB2 /* moneymoney.cpp */; };
+		46E694D717E0DA7F008E163D /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46E694D517E0DA7F008E163D /* character.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -514,6 +515,72 @@
 		46C337AA17A74A61009E6C32 /* Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water.png; sourceTree = "<group>"; };
 		46C337AD17A74A67009E6C32 /* april3_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = april3_4.mp3; sourceTree = "<group>"; };
 		46C337AE17A74A67009E6C32 /* sound_trailer_test1.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_trailer_test1.ogg; sourceTree = "<group>"; };
+		46E694D517E0DA7F008E163D /* character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		46E694D617E0DA7F008E163D /* character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character.h; sourceTree = "<group>"; };
+		46E694E417E0DC47008E163D /* 1-Prisoner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Prisoner.png"; sourceTree = "<group>"; };
+		46E694E517E0DC47008E163D /* 2-Shirtless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Shirtless.png"; sourceTree = "<group>"; };
+		46E694E617E0DC47008E163D /* 3-Bearded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-Bearded.png"; sourceTree = "<group>"; };
+		46E694E717E0DC47008E163D /* 4-Shorts_Tshirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-Shorts_Tshirt.png"; sourceTree = "<group>"; };
+		46E694E817E0DC47008E163D /* 5-Tall-rolled-sleeves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-Tall-rolled-sleeves.png"; sourceTree = "<group>"; };
+		46E694E917E0DC47008E163D /* 6-Old-Beard-Guy-with-Jacket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6-Old-Beard-Guy-with-Jacket.png"; sourceTree = "<group>"; };
+		46E694EA17E0DC47008E163D /* 7-Overalls-with-pipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-Overalls-with-pipe.png"; sourceTree = "<group>"; };
+		46E694EB17E0DC47008E163D /* 8-Tall-Button-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8-Tall-Button-Up.png"; sourceTree = "<group>"; };
+		46E694EC17E0DC47008E163D /* 9-Short-Untucked-Shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9-Short-Untucked-Shirt.png"; sourceTree = "<group>"; };
+		46E694ED17E0DC47008E163D /* 10-Tall-Sagging-Jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-Tall-Sagging-Jeans.png"; sourceTree = "<group>"; };
+		46E694EE17E0DC47008E163D /* 11-Shirt-and-Tie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-Shirt-and-Tie.png"; sourceTree = "<group>"; };
+		46E694EF17E0DC47008E163D /* 12-TallSagging-Stripes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12-TallSagging-Stripes.png"; sourceTree = "<group>"; };
+		46E694F017E0DC47008E163D /* 13-Biker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-Biker.png"; sourceTree = "<group>"; };
+		46E694F117E0DC47008E163D /* 14-Crackhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14-Crackhead.png"; sourceTree = "<group>"; };
+		46E694F217E0DC47008E163D /* 15-Someone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-Someone.png"; sourceTree = "<group>"; };
+		46E694F317E0DC47008E163D /* 16-Shorts-cigarette-lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16-Shorts-cigarette-lady.png"; sourceTree = "<group>"; };
+		46E694F417E0DC47008E163D /* 17-Buckle-Dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17-Buckle-Dress.png"; sourceTree = "<group>"; };
+		46E694F517E0DC47008E163D /* 18-Capris-big-lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-Capris-big-lady.png"; sourceTree = "<group>"; };
+		46E694F617E0DC47008E163D /* 19-Summer-Dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-Summer-Dress.png"; sourceTree = "<group>"; };
+		46E694F717E0DC47008E163D /* 20-Tall-athlete-ponytail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-Tall-athlete-ponytail.png"; sourceTree = "<group>"; };
+		46E694F817E0DC47008E163D /* 21-Big-Hair-ripped-jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "21-Big-Hair-ripped-jeans.png"; sourceTree = "<group>"; };
+		46E694F917E0DC47008E163D /* 22-Boots-and-Dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "22-Boots-and-Dress.png"; sourceTree = "<group>"; };
+		46E694FA17E0DC47008E163D /* 23-Short-Woman_-Short-Hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "23-Short-Woman_-Short-Hair.png"; sourceTree = "<group>"; };
+		46E694FB17E0DC47008E163D /* 24-Buttonup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-Buttonup.png"; sourceTree = "<group>"; };
+		46E694FC17E0DC47008E163D /* 25-Short.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-Short.png"; sourceTree = "<group>"; };
+		46E694FD17E0DC47008E163D /* 26-Bartender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-Bartender.png"; sourceTree = "<group>"; };
+		46E694FE17E0DC47008E163D /* 27-Naked-Man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27-Naked-Man.png"; sourceTree = "<group>"; };
+		46E694FF17E0DC47008E163D /* 28-Woman-Underwear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-Woman-Underwear.png"; sourceTree = "<group>"; };
+		46E6950017E0DC47008E163D /* 29-Farmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-Farmer.png"; sourceTree = "<group>"; };
+		46E6950117E0DC47008E163D /* 30-Osip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30-Osip.png"; sourceTree = "<group>"; };
+		46E6950217E0DC47008E163D /* 31-Drunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-Drunk.png"; sourceTree = "<group>"; };
+		46E6950317E0DC47008E163D /* 32-Old-Mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32-Old-Mustache.png"; sourceTree = "<group>"; };
+		46E6950417E0DC47008E163D /* 33-Low-Rank-Solider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-Low-Rank-Solider.png"; sourceTree = "<group>"; };
+		46E6950517E0DC47008E163D /* 34-Madam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-Madam.png"; sourceTree = "<group>"; };
+		46E6950617E0DC47008E163D /* 35-Yulia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "35-Yulia.png"; sourceTree = "<group>"; };
+		46E6950717E0DC47008E163D /* 36-Shirtless-Male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-Shirtless-Male.png"; sourceTree = "<group>"; };
+		46E6950817E0DC47008E163D /* 37-Shirtless-Black-Jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37-Shirtless-Black-Jeans.png"; sourceTree = "<group>"; };
+		46E6950917E0DC47008E163D /* 38-Hooded-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38-Hooded-1.png"; sourceTree = "<group>"; };
+		46E6950A17E0DC47008E163D /* 39-Hooded-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-Hooded-2.png"; sourceTree = "<group>"; };
+		46E6950B17E0DC47008E163D /* 40-Hooded-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40-Hooded-3.png"; sourceTree = "<group>"; };
+		46E6950C17E0DC47008E163D /* 41-Checker-Shirt-Kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "41-Checker-Shirt-Kid.png"; sourceTree = "<group>"; };
+		46E6950D17E0DC47008E163D /* 42-Knitting-Girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-Knitting-Girl.png"; sourceTree = "<group>"; };
+		46E6950E17E0DC47008E163D /* 43-Head-Wrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-Head-Wrap.png"; sourceTree = "<group>"; };
+		46E6950F17E0DC47008E163D /* 44-Pickle-Person-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-Pickle-Person-1.png"; sourceTree = "<group>"; };
+		46E6951017E0DC47008E163D /* 45-Pickle-Person-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-Pickle-Person-2.png"; sourceTree = "<group>"; };
+		46E6951117E0DC47008E163D /* 46-Coat-Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "46-Coat-Face.png"; sourceTree = "<group>"; };
+		46E6951217E0DC47008E163D /* 47-Gentleman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "47-Gentleman.png"; sourceTree = "<group>"; };
+		46E6951317E0DC47008E163D /* 48-Mustache-Top-Hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "48-Mustache-Top-Hat.png"; sourceTree = "<group>"; };
+		46E6951417E0DC47008E163D /* 49-Wine-Woman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "49-Wine-Woman.png"; sourceTree = "<group>"; };
+		46E6951517E0DC47008E163D /* 50-Bearded-and-Shorts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50-Bearded-and-Shorts.png"; sourceTree = "<group>"; };
+		46E6951617E0DC47008E163D /* 51-Hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "51-Hunter.png"; sourceTree = "<group>"; };
+		46E6951717E0DC47008E163D /* 52-Glorious-Russian-Soldier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "52-Glorious-Russian-Soldier.png"; sourceTree = "<group>"; };
+		46E6951817E0DC47008E163D /* 53-Drunk-beach-hobo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53-Drunk-beach-hobo.png"; sourceTree = "<group>"; };
+		46E6951917E0DC47008E163D /* 54-fat-Hobo-lady.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "54-fat-Hobo-lady.png"; sourceTree = "<group>"; };
+		46E6951A17E0DC47008E163D /* 55-skinny-afro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "55-skinny-afro.png"; sourceTree = "<group>"; };
+		46E6951B17E0DC47008E163D /* 56-kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "56-kid.png"; sourceTree = "<group>"; };
+		46E6951C17E0DC47008E163D /* 57-little-girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57-little-girl.png"; sourceTree = "<group>"; };
+		46E6951D17E0DC47008E163D /* 58-undershirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "58-undershirt.png"; sourceTree = "<group>"; };
+		46E6951E17E0DC47008E163D /* 59-Liza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "59-Liza.png"; sourceTree = "<group>"; };
+		46E6951F17E0DC47008E163D /* 60-Louise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-Louise.png"; sourceTree = "<group>"; };
+		46E6952017E0DC47008E163D /* 61-Nate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "61-Nate.png"; sourceTree = "<group>"; };
+		46E6952117E0DC47008E163D /* 62-Hat-and-Beard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "62-Hat-and-Beard.png"; sourceTree = "<group>"; };
+		46E6952217E0DC47008E163D /* 63-Old-Believer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-Old-Believer.png"; sourceTree = "<group>"; };
+		46E6952317E0DC47008E163D /* 64-Hot-Socks-Salesman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64-Hot-Socks-Salesman.png"; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = libraries/of_v0.7.4_osx_release/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = libraries/of_v0.7.4_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -608,6 +675,8 @@
 				464179B9178CF0200080DD2B /* mapreader.h */,
 				46992857179644DD009A8FB2 /* moneymoney.cpp */,
 				46992858179644DD009A8FB2 /* moneymoney.h */,
+				46E694D517E0DA7F008E163D /* character.cpp */,
+				46E694D617E0DA7F008E163D /* character.h */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -1033,6 +1102,70 @@
 		46C336E517A74A61009E6C32 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				46E694E417E0DC47008E163D /* 1-Prisoner.png */,
+				46E694ED17E0DC47008E163D /* 10-Tall-Sagging-Jeans.png */,
+				46E694EE17E0DC47008E163D /* 11-Shirt-and-Tie.png */,
+				46E694EF17E0DC47008E163D /* 12-TallSagging-Stripes.png */,
+				46E694F017E0DC47008E163D /* 13-Biker.png */,
+				46E694F117E0DC47008E163D /* 14-Crackhead.png */,
+				46E694F217E0DC47008E163D /* 15-Someone.png */,
+				46E694F317E0DC47008E163D /* 16-Shorts-cigarette-lady.png */,
+				46E694F417E0DC47008E163D /* 17-Buckle-Dress.png */,
+				46E694F517E0DC47008E163D /* 18-Capris-big-lady.png */,
+				46E694F617E0DC47008E163D /* 19-Summer-Dress.png */,
+				46E694E517E0DC47008E163D /* 2-Shirtless.png */,
+				46E694F717E0DC47008E163D /* 20-Tall-athlete-ponytail.png */,
+				46E694F817E0DC47008E163D /* 21-Big-Hair-ripped-jeans.png */,
+				46E694F917E0DC47008E163D /* 22-Boots-and-Dress.png */,
+				46E694FA17E0DC47008E163D /* 23-Short-Woman_-Short-Hair.png */,
+				46E694FB17E0DC47008E163D /* 24-Buttonup.png */,
+				46E694FC17E0DC47008E163D /* 25-Short.png */,
+				46E694FD17E0DC47008E163D /* 26-Bartender.png */,
+				46E694FE17E0DC47008E163D /* 27-Naked-Man.png */,
+				46E694FF17E0DC47008E163D /* 28-Woman-Underwear.png */,
+				46E6950017E0DC47008E163D /* 29-Farmer.png */,
+				46E694E617E0DC47008E163D /* 3-Bearded.png */,
+				46E6950117E0DC47008E163D /* 30-Osip.png */,
+				46E6950217E0DC47008E163D /* 31-Drunk.png */,
+				46E6950317E0DC47008E163D /* 32-Old-Mustache.png */,
+				46E6950417E0DC47008E163D /* 33-Low-Rank-Solider.png */,
+				46E6950517E0DC47008E163D /* 34-Madam.png */,
+				46E6950617E0DC47008E163D /* 35-Yulia.png */,
+				46E6950717E0DC47008E163D /* 36-Shirtless-Male.png */,
+				46E6950817E0DC47008E163D /* 37-Shirtless-Black-Jeans.png */,
+				46E6950917E0DC47008E163D /* 38-Hooded-1.png */,
+				46E6950A17E0DC47008E163D /* 39-Hooded-2.png */,
+				46E694E717E0DC47008E163D /* 4-Shorts_Tshirt.png */,
+				46E6950B17E0DC47008E163D /* 40-Hooded-3.png */,
+				46E6950C17E0DC47008E163D /* 41-Checker-Shirt-Kid.png */,
+				46E6950D17E0DC47008E163D /* 42-Knitting-Girl.png */,
+				46E6950E17E0DC47008E163D /* 43-Head-Wrap.png */,
+				46E6950F17E0DC47008E163D /* 44-Pickle-Person-1.png */,
+				46E6951017E0DC47008E163D /* 45-Pickle-Person-2.png */,
+				46E6951117E0DC47008E163D /* 46-Coat-Face.png */,
+				46E6951217E0DC47008E163D /* 47-Gentleman.png */,
+				46E6951317E0DC47008E163D /* 48-Mustache-Top-Hat.png */,
+				46E6951417E0DC47008E163D /* 49-Wine-Woman.png */,
+				46E694E817E0DC47008E163D /* 5-Tall-rolled-sleeves.png */,
+				46E6951517E0DC47008E163D /* 50-Bearded-and-Shorts.png */,
+				46E6951617E0DC47008E163D /* 51-Hunter.png */,
+				46E6951717E0DC47008E163D /* 52-Glorious-Russian-Soldier.png */,
+				46E6951817E0DC47008E163D /* 53-Drunk-beach-hobo.png */,
+				46E6951917E0DC47008E163D /* 54-fat-Hobo-lady.png */,
+				46E6951A17E0DC47008E163D /* 55-skinny-afro.png */,
+				46E6951B17E0DC47008E163D /* 56-kid.png */,
+				46E6951C17E0DC47008E163D /* 57-little-girl.png */,
+				46E6951D17E0DC47008E163D /* 58-undershirt.png */,
+				46E6951E17E0DC47008E163D /* 59-Liza.png */,
+				46E694E917E0DC47008E163D /* 6-Old-Beard-Guy-with-Jacket.png */,
+				46E6951F17E0DC47008E163D /* 60-Louise.png */,
+				46E6952017E0DC47008E163D /* 61-Nate.png */,
+				46E6952117E0DC47008E163D /* 62-Hat-and-Beard.png */,
+				46E6952217E0DC47008E163D /* 63-Old-Believer.png */,
+				46E6952317E0DC47008E163D /* 64-Hot-Socks-Salesman.png */,
+				46E694EA17E0DC47008E163D /* 7-Overalls-with-pipe.png */,
+				46E694EB17E0DC47008E163D /* 8-Tall-Button-Up.png */,
+				46E694EC17E0DC47008E163D /* 9-Short-Untucked-Shirt.png */,
 				46C336E617A74A61009E6C32 /* DOWNTOWN */,
 				46C3372B17A74A61009E6C32 /* NEIGHBORHOOD */,
 				46C3377417A74A61009E6C32 /* opera house */,
@@ -1704,6 +1837,7 @@
 				46966EDA178D191600FCFC3B /* map.cpp in Sources */,
 				46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */,
 				4694D9C51798C4F500C33FBC /* export_layer_map.js in Sources */,
+				46E694D717E0DA7F008E163D /* character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
