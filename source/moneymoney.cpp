@@ -2,10 +2,14 @@
 
 void MoneyMoney::setup() {
   map = reader.ReadMap("data/map.json");
+  characters = characterReader.ReadCharacters("data/characters.json");
+
   for (auto sprite : map) {
     images[sprite.filename].loadImage(sprite.filename);
     images[sprite.filename].getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
   }
+
+  
   mouse_position = ofVec2f(ofGetWidth(), ofGetHeight()) / 2.0;
 }
 
@@ -20,6 +24,11 @@ void MoneyMoney::update() {
     position += 10.0 * (d - e);
   }
   scale = ofLerp(scale, scale_target, 0.02);
+  
+  for (auto &character : characters){
+    character.update();
+  }
+  
 }
 
 void MoneyMoney::draw() {
@@ -33,7 +42,11 @@ void MoneyMoney::draw() {
   for (auto sprite : map) {
     images[sprite.filename].draw(sprite.x, sprite.y);
   }
+  for (auto &character : characters){
+    character.draw();
+  }
   ofPopMatrix();
+  
 }
 
 void MoneyMoney::keyPressed(int key) {
