@@ -1,6 +1,7 @@
 #include "moneymoney.h"
 
 void MoneyMoney::setup() {
+  // Read map and character data before OpenFrameworks switches the working directory to 'data'.
   map = reader.ReadMap("data/map.json");
   characters = characterReader.ReadCharacters("data/characters.json");
 
