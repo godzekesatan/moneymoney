@@ -37,6 +37,12 @@ private:
   Map map;
   CharacterReader characterReader;
   vector<Character> characters;
+  double currentTime;
+  double endTime;
+  bool editMode;
+  bool pause;
+  bool drag_timeline;
+  float drag_offset;
     
   std::map<std::string, ofImage> images;
   ofVec2f position, mouse_position;
