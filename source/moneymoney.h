@@ -8,6 +8,7 @@
 #include "Character.h"
 #include "CharacterReader.h"
 #include "ofMain.h"
+#include "CharacterWriter.h"
 
 /**
  * The OpenFrameworks application for Money Money.

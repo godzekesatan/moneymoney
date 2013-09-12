@@ -19,6 +19,7 @@
 		46992859179644DD009A8FB2 /* moneymoney.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46992857179644DD009A8FB2 /* moneymoney.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		D92B06A417E2221B00444933 /* CharacterReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D92B06A217E2221B00444933 /* CharacterReader.cpp */; };
+		D92B06B617E24FD500444933 /* CharacterWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D92B06B417E24FD500444933 /* CharacterWriter.cpp */; };
 		D9759F7417E0DDCF0079C6C0 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9759F7217E0DDCF0079C6C0 /* Character.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -583,6 +584,8 @@
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = libraries/of_v0.7.4_osx_release/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		D92B06A217E2221B00444933 /* CharacterReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterReader.cpp; sourceTree = "<group>"; };
 		D92B06A317E2221B00444933 /* CharacterReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterReader.h; sourceTree = "<group>"; };
+		D92B06B417E24FD500444933 /* CharacterWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterWriter.cpp; sourceTree = "<group>"; };
+		D92B06B517E24FD500444933 /* CharacterWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterWriter.h; sourceTree = "<group>"; };
 		D9759F7217E0DDCF0079C6C0 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
 		D9759F7317E0DDCF0079C6C0 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
 		D9759F7517E0E75F0079C6C0 /* characters.json */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = characters.json; sourceTree = "<group>"; };
@@ -684,6 +687,8 @@
 				D9759F7317E0DDCF0079C6C0 /* Character.h */,
 				D92B06A217E2221B00444933 /* CharacterReader.cpp */,
 				D92B06A317E2221B00444933 /* CharacterReader.h */,
+				D92B06B417E24FD500444933 /* CharacterWriter.cpp */,
+				D92B06B517E24FD500444933 /* CharacterWriter.h */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -1846,6 +1851,7 @@
 				4694D9C51798C4F500C33FBC /* export_layer_map.js in Sources */,
 				D9759F7417E0DDCF0079C6C0 /* Character.cpp in Sources */,
 				D92B06A417E2221B00444933 /* CharacterReader.cpp in Sources */,
+				D92B06B617E24FD500444933 /* CharacterWriter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

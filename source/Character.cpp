@@ -13,6 +13,7 @@ Character::Character(){}
 Character::Character(string filePath, ofPoint _pos){
   img.loadImage(filePath);
   pos = _pos;
+  fileName = filePath;
   
 }
 
