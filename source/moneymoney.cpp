@@ -11,9 +11,13 @@ void MoneyMoney::setup() {
     images[sprite.filename].getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
   }
   
+  timeline_start = ofGetWidth() * .15;
+  timeline_end = ofGetWidth() * .85;
+  timeline_height = ofGetHeight() *.85;
+  
   editMode = false;
   currentTime = 0;
-  endTime = 20;
+  endTime = 15;
   pause = false;
   mouse_position = ofVec2f(ofGetWidth(), ofGetHeight()) / 2.0;
 }
@@ -62,9 +66,6 @@ void MoneyMoney::draw() {
   ofPopMatrix();
   
   if (editMode) {
-    double timeline_start = ofGetWidth() * .1;
-    double timeline_end = ofGetWidth() * .9;
-    double timeline_height = ofGetHeight() *.9;
     double timeline_pos = ofLerp(timeline_start, timeline_end, currentTime/endTime);
     if (drag_timeline) {
       ofSetColor(255, 0, 0);
@@ -125,18 +126,13 @@ void MoneyMoney::mouseMoved(int x, int y) {
 
 void MoneyMoney::mouseDragged(int x, int y, int button) {
   if (drag_timeline) {
-    double timeline_start = ofGetWidth() * .1;
-    double timeline_end = ofGetWidth() * .9;
-    float new_timeline_pos = drag_offset + x;
+  float new_timeline_pos = drag_offset + x;
     currentTime = ofClamp((new_timeline_pos - timeline_start) / (timeline_end - timeline_start), 0.0, 1.0) * endTime;
   }
 }
 
 void MoneyMoney::mousePressed(int x, int y, int button) {
   if (editMode) {
-    double timeline_start = ofGetWidth() * .1;
-    double timeline_end = ofGetWidth() * .9;
-    double timeline_height = ofGetHeight() *.9;
     double timeline_pos = ofLerp(timeline_start, timeline_end, currentTime/endTime);
     if (x > timeline_pos - 5 && x < timeline_pos + 5 &&
         y > timeline_height - 5 && y < timeline_height + 5) {

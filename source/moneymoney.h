@@ -43,7 +43,13 @@ private:
   bool pause;
   bool drag_timeline;
   float drag_offset;
-    
+  
+  double timeline_start;
+  double timeline_end;
+  double timeline_height;
+  
+  
+  
   std::map<std::string, ofImage> images;
   ofVec2f position, mouse_position;
   float scale = 1.0, scale_target = 1.0;
