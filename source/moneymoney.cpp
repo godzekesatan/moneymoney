@@ -1,7 +1,7 @@
 #include "moneymoney.h"
 
 void MoneyMoney::setup() {
-  ofSetFrameRate(60);
+  ofSetVerticalSync(true);
   // Read map and character data before OpenFrameworks switches the working directory to 'data'.
   map = reader.ReadMap("data/map.json");
   characters = characterReader.ReadCharacters("data/characters.json");
@@ -22,6 +22,9 @@ void MoneyMoney::update() {
   
   if (!pause) {
     currentTime += 1.0/60.0;
+    if (currentTime > endTime) {
+      currentTime = endTime;
+    }
   }
   
   ofVec2f d((mouse_position.x - ofGetWidth() / 2.0) / ofGetWidth(),
@@ -31,9 +34,9 @@ void MoneyMoney::update() {
       mouse_position.x > 0.9 * ofGetWidth() ||
       mouse_position.y < 0.1 * ofGetHeight() ||
       mouse_position.y > 0.9 * ofGetHeight()) {
-    position += 10.0 * (d - e);
+    position += 50.0 * (d - e);
   }
-  scale = ofLerp(scale, scale_target, 0.02);
+  scale = ofLerp(scale, scale_target, 0.1);
   
   for (auto &character : characters){
     character.update(currentTime);
