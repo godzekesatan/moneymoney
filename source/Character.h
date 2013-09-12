@@ -36,6 +36,7 @@ public:
   
   ofImage img;
   ofPoint pos;
+  string fileName;
   vector<WayPoint> waypoints;
   
   

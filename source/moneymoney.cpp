@@ -57,6 +57,12 @@ void MoneyMoney::keyPressed(int key) {
   if (key == '-' && scale_target > 0.125) {
     scale_target /= 2;
   }
+  
+  if (key == 's') {
+    CharacterWriter writer;
+    writer.WriteCharacters("characters_test.json", characters);
+    
+  }
 }
 
 void MoneyMoney::keyReleased(int key) {
