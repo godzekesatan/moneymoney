@@ -21,8 +21,9 @@ Map MapReader::ReadMap(const std::string &filename) {
     FAIL(error);
   }
   CHECK_STATE(value.is<picojson::array>());
+  picojson::array array = value.get<picojson::array>();
   std::vector<Sprite> sprites;
-  for (auto sprite : value.get<picojson::array>()) {
+  for (auto sprite : array) {
     sprites.push_back(ReadSprite(sprite));
   }
   return Map(sprites);

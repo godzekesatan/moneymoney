@@ -5,6 +5,8 @@
 
 #include "map.h"
 #include "mapreader.h"
+#include "Character.h"
+#include "CharacterReader.h"
 #include "ofMain.h"
 
 /**
@@ -32,6 +34,9 @@ public:
 private:
   MapReader reader;
   Map map;
+  CharacterReader characterReader;
+  vector<Character> characters;
+    
   std::map<std::string, ofImage> images;
   ofVec2f position, mouse_position;
   float scale = 1.0, scale_target = 1.0;
