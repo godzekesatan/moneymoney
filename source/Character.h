@@ -32,7 +32,7 @@ public:
   Character(string filePath, ofPoint _pos);
   
   void draw();
-  void update();
+  void update(double time);
   
   ofImage img;
   ofPoint pos;

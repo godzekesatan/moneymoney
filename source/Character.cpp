@@ -18,12 +18,11 @@ Character::Character(string filePath, ofPoint _pos){
 }
 
 
-void Character::update(){
+void Character::update(double time){
   WayPoint *start = nullptr;
   WayPoint *end = nullptr;
-  double current_time = ofGetElapsedTimef();
   for (int i = 1; i < waypoints.size(); i++){
-    if (waypoints[i].time > current_time){
+    if (waypoints[i].time > time){
       start = &waypoints[i - 1];
       end = &waypoints[i];
       break;
@@ -31,7 +30,7 @@ void Character::update(){
   }
   
   if (start && end) {
-    double t = (current_time - start->time) / (end->time - start->time);
+    double t = (time - start->time) / (end->time - start->time);
 //    cout << "start (" << start->x << ", " << start->y << ")" << endl;
 //    cout << "end (" << end->x << ", " << end->y << ")" << endl;
 //    cout << "t (" << t << ")" << endl;
