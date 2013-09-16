@@ -6,11 +6,11 @@
  */
 #define DECLARE_INTERFACE(interface)\
 public:\
-  virtual ~interface() {}\
+  virtual ~interface() = default;\
   interface(const interface &) = delete;\
   interface &operator =(const interface &) = delete;\
 protected:\
-  interface() {}\
+  interface() = default;\
 private:
 
 #endif  // MONEYMONEY_BASE_H_
